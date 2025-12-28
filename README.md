@@ -5,48 +5,32 @@
 
 这里是四个不同模型的生成效果展示：
 
+<h2 align="center">🎥 Demo Results</h2>
+
 <div align="center">
   <table>
     <tr>
       <td align="center">
-        <video width="280" height="280" controls>
-          <source src="PLMS.mp4" type="video/mp4">
-          您的浏览器不支持 video 标签。
-        </video>
-        <br>
-        <strong>PLMS</strong>
+        <b>PLMS</b><br>
+        <video src="PLMS.mp4" width="100%" controls preload></video>
       </td>
       <td align="center">
-        <video width="280" height="280" controls>
-          <source src="DDPM.mp4" type="video/mp4">
-          您的浏览器不支持 video 标签。
-        </video>
-        <br>
-        <strong>DDPM</strong>
+        <b>DDPM</b><br>
+        <video src="DDPM.mp4" width="100%" controls preload></video>
       </td>
     </tr>
     <tr>
       <td align="center">
-        <video width="280" height="280" controls>
-          <source src="DDIM.mp4" type="video/mp4">
-          您的浏览器不支持 video 标签。
-        </video>
-        <br>
-        <strong>DDIM</strong>
+        <b>DDIM</b><br>
+        <video src="DDIM.mp4" width="100%" controls preload></video>
       </td>
       <td align="center">
-        <video width="280" height="280" controls>
-          <source src="dpm_solver.mp4" type="video/mp4">
-          您的浏览器不支持 video 标签。
-        </video>
-        <br>
-        <strong>dpm_solver</strong>
+        <b>dpm_solver</b><br>
+        <video src="DPM_solver.mp4" width="100%" controls preload></video>
       </td>
     </tr>
   </table>
 </div>
-
-> 📌 提示：点击视频右下角的全屏按钮可获得更好的观看体验。
 
 ## Environment
 
