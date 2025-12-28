@@ -1,17 +1,4 @@
-# python predict_ddpm.py \
-#     --dataset vocaset \
-#     --vertice_dim 15069 \
-#     --feature_dim 256 \
-#     --output_fps 30 \
-#     --train_subjects "F2 F3 F4 M3 M4 M5" \
-#     --test_subjects "F2 F3 F4 M3 M4 M5" \
-#     --model_name "pretrained_vocaset" \
-#     --fps 30 \
-#     --condition "F2" \
-#     --subject "F2" \
-#     --diff_steps 1000 \
-#     --gru_dim 256 \
-#     --wav_path "test.wav" \
+
 python predict_ddpm.py \
   --dataset vocaset \
   --data_path data \
