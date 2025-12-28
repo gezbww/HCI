@@ -1,36 +1,17 @@
-##
-##Demo Results
-###Here are visual comparisons of the four diffusion methods implemented in this project:
-## 🎥 效果演示
+## 🎥 Demo Results
 
-这里是四个不同模型的生成效果展示：
+Here are visual comparisons of the four diffusion methods implemented in this project.
+*(Please click the links below to watch the videos)*
 
-<h2 align="center">🎥 Demo Results</h2>
+| **PLMS** | **DDPM** |
+| :---: | :---: |
+| [**▶️ Watch PLMS Video**](./PLMS.mp4) | [**▶️ Watch DDPM Video**](./DDPM.mp4) |
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <b>PLMS</b><br>
-        <video src="PLMS.mp4" width="100%" controls preload></video>
-      </td>
-      <td align="center">
-        <b>DDPM</b><br>
-        <video src="DDPM.mp4" width="100%" controls preload></video>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <b>DDIM</b><br>
-        <video src="DDIM.mp4" width="100%" controls preload></video>
-      </td>
-      <td align="center">
-        <b>dpm_solver</b><br>
-        <video src="DPM_solver.mp4" width="100%" controls preload></video>
-      </td>
-    </tr>
-  </table>
-</div>
+| **DDIM** | **dpm_solver** |
+| :---: | :---: |
+| [**▶️ Watch DDIM Video**](./DDIM.mp4) | [**▶️ Watch dpm_solver Video**](./DPM_solver.mp4) |
+
+---
 
 ## Environment
 
