@@ -1,4 +1,53 @@
 ##
+##Demo Results
+###Here are visual comparisons of the four diffusion methods implemented in this project:
+## 🎥 效果演示
+
+这里是四个不同模型的生成效果展示：
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <video width="280" height="280" controls>
+          <source src="PLMS.mp4" type="video/mp4">
+          您的浏览器不支持 video 标签。
+        </video>
+        <br>
+        <strong>PLMS</strong>
+      </td>
+      <td align="center">
+        <video width="280" height="280" controls>
+          <source src="DDPM.mp4" type="video/mp4">
+          您的浏览器不支持 video 标签。
+        </video>
+        <br>
+        <strong>DDPM</strong>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <video width="280" height="280" controls>
+          <source src="DDIM.mp4" type="video/mp4">
+          您的浏览器不支持 video 标签。
+        </video>
+        <br>
+        <strong>DDIM</strong>
+      </td>
+      <td align="center">
+        <video width="280" height="280" controls>
+          <source src="dpm_solver.mp4" type="video/mp4">
+          您的浏览器不支持 video 标签。
+        </video>
+        <br>
+        <strong>dpm_solver</strong>
+      </td>
+    </tr>
+  </table>
+</div>
+
+> 📌 提示：点击视频右下角的全屏按钮可获得更好的观看体验。
+
 ## Environment
 
 - Linux and Windows (tested on Windows 10 and 11)
