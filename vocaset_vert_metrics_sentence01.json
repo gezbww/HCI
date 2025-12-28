@@ -1,0 +1,15 @@
+{
+  "Frames_gt": 255,
+  "Frames_pred": 888,
+  "Frames_used": 255,
+  "Num_vertices_gt": 5023,
+  "Num_vertices_pred": 5023,
+  "Num_vertices_used": 5023,
+  "RMSE_per_frame_mean": 0.0010791493004312102,
+  "RMSE_per_frame_std": 0.000228960256191443,
+  "RMSE_normalized_mean": 0.002346831731129092,
+  "RMSE_normalized_std": 0.0004979210885674632,
+  "Velocity_RMSE_mean": 0.00013887543940332978,
+  "Acceleration_RMSE_mean": 0.00012652782626505172,
+  "BBox_diag_first_frame": 0.4598324141083678
+}
