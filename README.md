@@ -23,29 +23,16 @@ Read the downloaded data and convert it to .npy and .wav format accepted by the 
 cd data/vocaset
 python process_voca_data.py
 ```
-## Model Training 
-### Training and Testing
+## different methods 
+PLMS DDPM DDIM dpm_solver
 
-| Arguments     | BIWI  | VOCASET | Multiface | UUDaMM | BEAT |
-|---------------|-------|---------|-----------|--------|------|
-| --dataset     |  BIWI | vocaset | multiface |  damm  | beat |
-| --vertice_dim | 70110 |  15069  |   18516   |   192  |  51  |
-| --output_fps  |   25  |    30   |     30    |   30   |  30  |
-
-- Train the model by running the following command:
-	```
-	python main.py
-	```
-	The test split predicted results will be saved in the `result/`. The trained models (saves the model in 25 epoch interval) will be saved in the `save/` folder.
-
-
-### Predictions
+### How to run these codes
 
 - Download the trained weights from [here](https://mega.nz/folder/jlBF0Dpa#U3G1lJCZ4dijMoSc9gmqSg) and add them to the folder `pretrained_models`.
 - To generate predictions use the commands:
 Vocaset
 ```commandline
-python predict.py --dataset vocaset --vertice_dim 15069 --feature_dim 256 --output_fps 30 --train_subjects "FaceTalk_170728_03272_TA FaceTalk_170904_00128_TA FaceTalk_170725_00137_TA FaceTalk_170915_00223_TA FaceTalk_170811_03274_TA FaceTalk_170913_03279_TA FaceTalk_170904_03276_TA FaceTalk_170912_03278_TA" --test_subjects "FaceTalk_170809_00138_TA FaceTalk_170731_00024_TA" --model_name "pretrained_vocaset" --fps 30 --condition "FaceTalk_170728_03272_TA" --subject "FaceTalk_170731_00024_TA" --diff_steps 1000 --gru_dim 256 --wav_path "test.wav"
+bash predict_ddpm.sh
 ```
 ### Acknowledgements
 
